@@ -5,7 +5,8 @@ const utils = require('./utils');
 const Log = utils.loadEsModule('Log');
 
 describe('Log log level', () => {
-
+    Log.warning('invalid user token');
+    Log.info('login success', { uid: 1000, token: 'user token'})
     let logOption;
     let stderr = path.resolve(__dirname, './test_std.err' );
     let stdout = path.resolve(__dirname, './test_std.out' );
