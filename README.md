@@ -16,6 +16,7 @@ let options = {
     stdout: process.stdout  // info log (debug trace info) writestream, default(process.stdout)
 }
 Log.initLog(options)
+// above options is default value, you can use direct without this init
 
 // start log warning info
 Log.warning('invalid user token');
@@ -27,3 +28,6 @@ Log.info('login success', { uid: 1000, token: 'user token'});
 
 // Log.debug Log.trace Log.info Log.warning Log.fatal
 ```
+
+## Tips
+If this help you in work, please give me a star
