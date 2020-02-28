@@ -1,0 +1,19 @@
+{
+  "name": "@yadou/yalog",
+  "version": "1.0.1",
+  "description": "a log package use in some system",
+  "main": "./dist/Log.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "keywords": [
+    "yalog",
+    "log"
+  ],
+  "author": "wll_zhou@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.6"
+  }
+}
